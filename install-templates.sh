@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SCRIPT_DIR=$(dirname $0)
-FIREBASE_FRAMEWORK="https://cdn.firebase.com/ios/Firebase.framework-LATEST.zip"
+FIREBASE_FRAMEWORK="https://cdn.firebase.com/ObjC/Firebase.framework-LATEST.zip"
 FRAMEWORK_DEST="/Users/Shared/Firebase/Frameworks/"
 TEMPLATE_DEST="$HOME/Library/Developer/Xcode/Templates"
 
