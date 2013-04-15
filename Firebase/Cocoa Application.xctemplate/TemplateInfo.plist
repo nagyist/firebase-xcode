@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.firebase.com.apple.dt.unit.cocoaApplication</string>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template builds a Cocoa-based application written in Objective-C that includes Firebase.</string>
+	<key>SortOrder</key>
+	<integer>2</integer>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.cocoaApplicationBase</string>
+		<string>com.apple.dt.unit.macReferenceCounting</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>en.lproj/MainMenu.xib</key>
+		<dict>
+			<key>Path</key>
+			<string>MainMenuApp.xib</string>
+		</dict>
+		<key>Firebase</key>
+		<dict>
+			<key>Path</key>
+			<string>/Users/Shared/Firebase/Frameworks/Firebase.framework</string>
+			<key>PathType</key>
+			<string>Absolute</string>
+		</dict>
+	</dict>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>Frameworks</key>
+			<array>
+				<string>CFNetwork</string>
+				<string>Security</string>
+			</array>
+			<key>SharedSettings</key>
+			<dict>
+				<key>OTHER_LDFLAGS</key>
+				<string>-ObjC -licucore</string>
+			</dict>
+		</dict>
+	</array>
+	<key>Nodes</key>
+	<array>
+		<string>en.lproj/MainMenu.xib</string>
+		<string>Firebase</string>
+	</array>
+</dict>
+</plist>
