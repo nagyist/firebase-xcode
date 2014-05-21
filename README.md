@@ -9,3 +9,7 @@ as well as install the iOS and OSX Firebase templates.
 ![Firebase Xcode New Project Template Screenshot](http://i.imgur.com/TPCoYDx.png)
 
 Enjoy!
+
+License
+-------
+[MIT](http://firebase.mit-license.org)
