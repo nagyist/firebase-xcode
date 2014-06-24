@@ -31,7 +31,7 @@
 	<key>Description</key>
 	<string>This template provides a starting point for an application that uses a tab bar. It provides a user interface configured with a tab bar controller, and view controllers for the tab bar items.</string>
 	<key>Identifier</key>
-	<string>com.apple.dt.unit.tabbedApplication</string>
+	<string>com.firebase.com.apple.dt.unit.tabbedApplication</string>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Nodes</key>
@@ -55,19 +55,6 @@
 	</array>
 	<key>Options</key>
 	<array>
-		<dict>
-			<key>Frameworks</key>
-			<array>
-				<string>CFNetwork</string>
-				<string>Security</string>
-				<string>SystemConfiguration</string>
-			</array>
-			<key>SharedSettings</key>
-			<dict>
-				<key>OTHER_LDFLAGS</key>
-				<string>-ObjC -licucore -lc++</string>
-			</dict>
-		</dict>
 		<dict>
 			<key>Identifier</key>
 			<string>universalDeviceFamily</string>
@@ -137,5 +124,21 @@
 	</array>
 	<key>SortOrder</key>
 	<integer>1</integer>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>Frameworks</key>
+			<array>
+				<string>CFNetwork</string>
+				<string>Security</string>
+				<string>SystemConfiguration</string>
+			</array>
+			<key>SharedSettings</key>
+			<dict>
+				<key>OTHER_LDFLAGS</key>
+				<string>-ObjC -licucore -lc++</string>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>
