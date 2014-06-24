@@ -7,7 +7,6 @@
 //
 
 #import "___VARIABLE_classPrefix:identifier___ViewController.h"
-#import <Firebase/Firebase.h>
 
 #define BUFFER_OFFSET(i) ((char *)NULL + (i))
 
@@ -103,7 +102,7 @@ GLfloat gCubeVertexData[216] =
 {
     [super viewDidLoad];
     
-    self.context = ___RP___[[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2]___AR___;
+    self.context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];
 
     if (!self.context) {
         NSLog(@"Failed to create ES context");
@@ -149,7 +148,7 @@ GLfloat gCubeVertexData[216] =
     
     [self loadShaders];
     
-    self.effect = ___RP___[[GLKBaseEffect alloc] init]___AR___;
+    self.effect = [[GLKBaseEffect alloc] init];
     self.effect.light0.enabled = GL_TRUE;
     self.effect.light0.diffuseColor = GLKVector4Make(1.0f, 0.4f, 0.4f, 1.0f);
     
