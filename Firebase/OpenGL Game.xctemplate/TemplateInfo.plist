@@ -47,7 +47,7 @@
 	<key>Description</key>
 	<string>This template provides a starting point for an OpenGL ES-based game. It provides a view into which you render your OpenGL ES scene, and a timer to allow you to animate the view.</string>
 	<key>Identifier</key>
-	<string>com.apple.dt.unit.openGLGame</string>
+	<string>com.firebase.com.apple.dt.unit.openGLGame</string>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Nodes</key>
