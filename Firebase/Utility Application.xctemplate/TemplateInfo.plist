@@ -70,9 +70,25 @@
 	<key>Description</key>
 	<string>This template provides a starting point for a utility application that has a main view and an alternate view. For iPhone, it sets up an Info button to flip the main view to the alternate view. For iPad, it sets up an Info bar button that shows the alternate view in a popover.</string>
 	<key>Identifier</key>
-	<string>com.apple.dt.unit.utilityApplication</string>
+	<string>com.firebase.com.apple.dt.unit.utilityApplication</string>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>Frameworks</key>
+			<array>
+				<string>CFNetwork</string>
+				<string>Security</string>
+				<string>SystemConfiguration</string>
+			</array>
+			<key>SharedSettings</key>
+			<dict>
+				<key>OTHER_LDFLAGS</key>
+				<string>-ObjC -licucore -lc++</string>
+			</dict>
+		</dict>
+	</array>
 	<key>Nodes</key>
 	<array>
 		<string>___VARIABLE_classPrefix:identifier___MainViewController.h:comments</string>
@@ -102,19 +118,6 @@
 	</array>
 	<key>Options</key>
 	<array>
-		<dict>
-			<key>Frameworks</key>
-			<array>
-				<string>CFNetwork</string>
-				<string>Security</string>
-				<string>SystemConfiguration</string>
-			</array>
-			<key>SharedSettings</key>
-			<dict>
-				<key>OTHER_LDFLAGS</key>
-				<string>-ObjC -licucore -lc++</string>
-			</dict>
-		</dict>
 		<dict>
 			<key>Identifier</key>
 			<string>coreData</string>
